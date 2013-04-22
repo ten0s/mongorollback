@@ -1,0 +1,11 @@
+{application, mongorollback, [
+	{description, "MongoDB rollback applier"},
+	{vsn, "0.0.1"},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		mongodb
+	]},
+	{env, []}
+]}.
